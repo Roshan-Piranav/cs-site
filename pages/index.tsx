@@ -20,7 +20,7 @@ export default function OpeningPage() {
 
     const redirectTimer = setTimeout(() => {
       router.push("/home");
-    }, 3000); // total duration: 3s
+    }, 2000); // total duration: 3s
 
     return () => {
       clearTimeout(fadeOutTimer);
@@ -48,7 +48,7 @@ export default function OpeningPage() {
         DOCS <sup style={{ fontSize: "1.2rem" }}>TM</sup> TO WORDPRESS PRO
       </h1>
       <p style={{ fontSize: "1.2rem" }}>
-        Going to know about Docs to WordPress
+        Know more about Docs to WordPress
       </p>
     </div>
   );
