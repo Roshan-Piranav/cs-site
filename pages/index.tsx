@@ -45,11 +45,9 @@ export default function OpeningPage() {
       }}
     >
       <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
-        DOCS <sup style={{ fontSize: "1.2rem" }}>TM</sup> TO WORDPRESS PRO
+        DOCS <sup style={{ fontSize: "1.2rem" }}> </sup> TO WORDPRESS PRO
       </h1>
-      <p style={{ fontSize: "1.2rem" }}>
-        Know more about Docs to WordPress
-      </p>
+      <p style={{ fontSize: "1.2rem" }}>Know more about Docs to WordPress</p>
     </div>
   );
 }
