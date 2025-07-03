@@ -20,7 +20,7 @@ export default function OpeningPage() {
 
     const redirectTimer = setTimeout(() => {
       router.push("/home");
-    }, 2000); // total duration: 3s
+    }, 3000); // total duration: 3s
 
     return () => {
       clearTimeout(fadeOutTimer);
